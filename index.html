@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+
+    <title>Mosab Hassan | Cybersecurity & Incident Response</title>
+    <meta
+      name="description"
+      content="Mosab Hassan — Cybersecurity & Incident Response Engineer. SOC, SIEM, Threat Hunting, Detection Engineering, and Security Automation."
+    />
+    <meta name="theme-color" content="#0a0e1a" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Open Graph (optional but nice) -->
+    <meta
+      property="og:title"
+      content="Mosab Hassan | Cybersecurity & Incident Response"
+    />
+    <meta
+      property="og:description"
+      content="SOC • SIEM • Threat Hunting • Detection Engineering • Automation"
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Top Nav -->
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="#home" aria-label="Go to top">
+          <span class="brand__mark">MH</span><span class="brand__dot">.</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav class="nav" id="navMenu" aria-label="Primary navigation">
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#projects">Projects</a>
+          <a class="nav__link" href="#certifications">Certifications</a>
+          <a class="nav__link" href="#profiles">Profiles</a>
+          <a class="nav__link nav__link--cta" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="badge">Cybersecurity • SOC • Incident Response</p>
+            <h1 class="hero__title">Mosab Hassan</h1>
+            <p class="hero__subtitle" id="typing" aria-live="polite"></p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#projects">View Projects</a>
+              <a
+                class="btn btn--ghost"
+                href="Cv.pdf"
+                target="_blank"
+                rel="noreferrer"
+                download="Cv.pdf"
+                >Download CV</a
+              >
+              <a class="btn btn--ghost" href="#certifications"
+                >View Certifications</a
+              >
+            </div>
+
+            <div class="hero__quick">
+              <a
+                class="chip"
+                href="https://www.linkedin.com/in/mosabhassan1/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                class="chip"
+                href="https://wa.me/201090073517"
+                target="_blank"
+                rel="noreferrer"
+              >
+                WhatsApp: +20 109 007 3517
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__media" aria-label="Profile photo">
+            <!-- ضع صورتك هنا باسم mosab.jpg داخل نفس فولدر الموقع -->
+            <img
+              class="avatar"
+              src="mosab.jpeg"
+              alt="Mosab Hassan portrait"
+              loading="eager"
+            />
+            <div class="avatar__ring" aria-hidden="true"></div>
+            <p class="hero__note">
+              Available for freelance & security projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">About</h2>
+            <p class="section__desc">
+              SOC-focused Cybersecurity & Incident Response engineer. I build
+              detection-ready labs and practical security automation.
+            </p>
+          </div>
+
+          <div class="panel">
+            <div class="panel__grid">
+              <div>
+                <h3 class="panel__title">What I do</h3>
+                <ul class="list">
+                  <li>Threat detection & alert triage workflows</li>
+                  <li>SIEM pipelines (log onboarding, parsing, correlation)</li>
+                  <li>Incident Response playbooks and investigation notes</li>
+                  <li>Hands-on security labs (blue + red perspective)</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="panel__title">Focus areas</h3>
+                <div class="tags">
+                  <span class="tag">SOC</span>
+                  <span class="tag">SIEM</span>
+                  <span class="tag">Wazuh</span>
+                  <span class="tag">Threat Hunting</span>
+                  <span class="tag">IDS/IPS</span>
+                  <span class="tag">Linux</span>
+                  <span class="tag">Automation</span>
+                  <span class="tag">Detection Engineering</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Skills</h2>
+            <p class="section__desc">
+              Core technical stack and operational skills.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="card">
+              <h3 class="card__title">Security Operations</h3>
+              <ul class="list list--muted">
+                <li>Incident Response (triage → containment → recovery)</li>
+                <li>Threat Hunting & log analysis</li>
+                <li>Detection tuning & alert prioritization</li>
+                <li>Reporting & security documentation</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Network Security</h3>
+              <ul class="list list--muted">
+                <li>Snort / Suricata concepts</li>
+                <li>Firewall rules & segmentation</li>
+                <li>Traffic analysis (PCAP basics)</li>
+                <li>Hardening & baseline controls</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Automation</h3>
+              <ul class="list list--muted">
+                <li>Python scripting for security tasks</li>
+                <li>Bash & Linux administration</li>
+                <li>Parsing / normalization helpers</li>
+                <li>Operational checklists & tooling</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Projects</h2>
+            <p class="section__desc"></p>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="card card--project">
+              <div class="card__top">
+                <h3 class="card__title">SOC Lab Deployment</h3>
+                <span class="pill">Blue Team</span>
+              </div>
+              <p class="card__text">
+                Built a SOC environment with log sources, agents, and basic
+                correlation logic for common attack patterns.
+              </p>
+              <div class="tags">
+                <span class="tag">Wazuh</span><span class="tag">SIEM</span
+                ><span class="tag">Linux</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__top">
+                <h3 class="card__title">AI-based IDS</h3>
+                <span class="pill">Detection</span>
+              </div>
+              <p class="card__text">
+                Implemented anomaly detection for network behavior and a simple
+                prioritization workflow for triage.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">ML</span
+                ><span class="tag">SOC</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__top">
+                <h3 class="card__title">CTF Writeups</h3>
+                <span class="pill">Offense → Defense</span>
+              </div>
+              <p class="card__text">
+                Documented exploitation paths, persistence checks, and
+                remediation notes in a structured format.
+              </p>
+              <div class="tags">
+                <span class="tag">Writeups</span
+                ><span class="tag">IR Notes</span><span class="tag">Labs</span>
+              </div>
+            </article>
+
+            <article class="card card--project">
+              <div class="card__top">
+                <h3 class="card__title">FireRobot-SAFE</h3>
+                <span class="pill">IoT</span>
+              </div>
+              <p class="card__text">
+                ESP32-based project focusing on secure control logic and access
+                protections for IoT security practice.
+              </p>
+              <div class="tags">
+                <span class="tag">ESP32</span><span class="tag">Security</span
+                ><span class="tag">Embedded</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="section" id="certifications">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Certifications</h2>
+            <p class="section__desc">Click any certificate to open the PDF.</p>
+          </div>
+
+          <div class="grid grid--3">
+            <!-- IMPORTANT: الملفات دي لازم تكون بنفس الأسماء داخل فولدر الموقع -->
+            <a
+              class="cert"
+              href="ethical-hacking.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Ethical Hacking</a
+            >
+            <a
+              class="cert"
+              href="redhat-rhsa1.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Red Hat System Administration I</a
+            >
+            <a
+              class="cert"
+              href="python-cert.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Python</a
+            >
+
+            <a
+              class="cert"
+              href="network-virtualization.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Network Virtualization Concepts</a
+            >
+            <a
+              class="cert"
+              href="nti-cyberops.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >NTI CyberOps</a
+            >
+            <a
+              class="cert"
+              href="intro-network-security.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Introduction to Network Security</a
+            >
+
+            <a
+              class="cert"
+              href="network-fundamentals-implementation.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Implementation of Network Fundamentals</a
+            >
+            <a
+              class="cert"
+              href="cisco-cyberops-associate.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Cisco CyberOps Associate</a
+            >
+            <a
+              class="cert"
+              href="cyber-security-beginners.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Cyber Security for Beginners</a
+            >
+
+            <a
+              class="cert"
+              href="computer-network-fundamentals.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Computer Network Fundamentals</a
+            >
+            <a
+              class="cert"
+              href="cloud-virtualization.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Cloud & Virtualization Concepts</a
+            >
+            <a
+              class="cert"
+              href="general-cert.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Additional Certificate</a
+            >
+          </div>
+
+          <p class="hint"></p>
+        </div>
+      </section>
+
+      <!-- Profiles -->
+      <section class="section" id="profiles">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Profiles</h2>
+            <p class="section__desc">Freelance & security platforms.</p>
+          </div>
+
+          <div class="grid grid--2">
+            <a
+              class="profile"
+              href="https://www.upwork.com/freelancers/~011f9487e1004086b6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="profile__name">Upwork</span>
+              <span class="profile__meta">Freelance Profile</span>
+            </a>
+
+            <a
+              class="profile"
+              href="https://mostaql.com/u/Mosab_Hassan25"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="profile__name">Mostaql</span>
+              <span class="profile__meta">Freelance Profile</span>
+            </a>
+
+            <a
+              class="profile"
+              href="https://khamsat.com/user/mosab_hassan1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="profile__name">Khamsat</span>
+              <span class="profile__meta">Freelance Profile</span>
+            </a>
+
+            <a
+              class="profile"
+              href="https://hackerone.com/mosabhassan?type=user"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="profile__name">HackerOne</span>
+              <span class="profile__meta">Security Profile</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Contact</h2>
+            <p class="section__desc">Fastest ways to reach me.</p>
+          </div>
+
+          <div class="contact">
+            <a
+              class="contact__item"
+              href="https://www.linkedin.com/in/mosabhassan1/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact__label">LinkedIn</span>
+              <span class="contact__value">/in/mosabhassan1</span>
+            </a>
+
+            <a
+              class="contact__item"
+              href="https://wa.me/201090073517"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact__label">WhatsApp</span>
+              <span class="contact__value">+20 109 007 3517</span>
+            </a>
+
+            <a
+              class="contact__item contact__item--cv"
+              href="Cv.pdf"
+              target="_blank"
+              rel="noreferrer"
+              download="Cv.pdf"
+            >
+              <span class="contact__label">Download CV</span>
+              <span class="contact__value">PDF</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <p>© <span id="year"></span> Mosab Hassan. All rights reserved.</p>
+          <a class="to-top" href="#home" aria-label="Back to top">↑</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
